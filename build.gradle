@@ -22,7 +22,7 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://18.217.7.110:9000'  on ec2 
+        property 'sonar.host.url', 'http://18.217.7.110:9000'  
                 //If you use token based authentication below line is sufficient
                 property 'sonar.login', 'd9c7a84d983cbab9c23c4ba82351ce2d9932555d'  
 
