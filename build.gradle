@@ -22,9 +22,10 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://localhost:9000'
-		//If you use token based authentication below line is sufficient
-		property 'sonar.login', '84a447e0ad03e4a04657e2f6ffc0577a68cee92b'
+        property 'sonar.host.url', 'http://18.217.7.110:9000'  on ec2 
+                //If you use token based authentication below line is sufficient
+                property 'sonar.login', 'd9c7a84d983cbab9c23c4ba82351ce2d9932555d'  
+
 	   // If you want to use username & password use below two lines and comment above line	
 	   //property 'sonar.login', 'balaji'
        //property 'sonar.password', 'password'
