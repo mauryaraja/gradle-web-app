@@ -27,7 +27,7 @@ sonarqube {
                 property 'sonar.login', 'd9c7a84d983cbab9c23c4ba82351ce2d9932555d'  
 
 	   // If you want to use username & password use below two lines and comment above line	
-	   //property 'sonar.login', 'balaji'
-       //property 'sonar.password', 'password'
+	   property 'sonar.login', 'admin'
+       property 'sonar.password', 'admin'
     }
 }
